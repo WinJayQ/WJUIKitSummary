@@ -1,8 +1,6 @@
 # WJUIKitSummary
 #UIKit的外观属性及方法汇总
   
-  转自楚天舒的简书-->http://www.jianshu.com/p/3a4353339822
-  
   开发中经常会碰到要设置UI的某个生僻的外观属性，虽然在头文件中都能查到，但一是每个控件的头文件比较分散繁杂，二是每个头文件里有太多不用到的方法和属性，所以这里将UIKit的外观属性及方法从头文件中抽取出来，以便查找及熟悉。（更新到iOS 8.0，从A-Z排序）
 ##UIActivityIndicatorView
 @property (readwrite, nonatomic, retain) UIColor *color NS_AVAILABLE_IOS(5_0) UI_APPEARANCE_SELECTOR;
@@ -251,3 +249,5 @@ UI_APPEARANCE_SELECTOR;
 
 ##UIView
 @property(nonatomic,copy) UIColor *backgroundColor UI_APPEARANCE_SELECTOR; // default is nil. Can be useful with the appearance proxy on custom UIView subclasses.
+
+##转自楚天舒的简书-->http://www.jianshu.com/p/3a4353339822
