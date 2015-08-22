@@ -53,7 +53,9 @@
 - (UIImage *)backgroundImageForBarMetrics:(UIBarMetrics)barMetrics NS_AVAILABLE_IOS(5_0) UI_APPEARANCE_SELECTOR;
 
 // 阴影图片 - 即分割线
+
 @property(nonatomic,retain) UIImage *shadowImage NS_AVAILABLE_IOS(6_0) UI_APPEARANCE_SELECTOR;
+
 @property(nonatomic,copy) NSDictionary *titleTextAttributes NS_AVAILABLE_IOS(5_0) UI_APPEARANCE_SELECTOR;
 
 // 
@@ -66,8 +68,10 @@
 
 ##UIPageControl
 // 分页小圆点颜色
+
 @property(nonatomic,retain) UIColor *pageIndicatorTintColor NS_AVAILABLE_IOS(6_0) 
 UI_APPEARANCE_SELECTOR;
+
 @property(nonatomic,retain) UIColor *currentPageIndicatorTintColor NS_AVAILABLE_IOS(6_0) UI_APPEARANCE_SELECTOR;
 
 ##UIProgressView
@@ -217,14 +221,17 @@ UI_APPEARANCE_SELECTOR;
 @property (nonatomic, retain) UIColor *sectionIndexColor NS_AVAILABLE_IOS(6_0) UI_APPEARANCE_SELECTOR; // color used for text of the section index
 
 // 索引条背景图片
+
 @property (nonatomic, retain) UIColor *sectionIndexBackgroundColor NS_AVAILABLE_IOS(7_0) UI_APPEARANCE_SELECTOR; // the background color of the section index while not being touched
 
 @property (nonatomic, retain) UIColor *sectionIndexTrackingBackgroundColor NS_AVAILABLE_IOS(6_0) UI_APPEARANCE_SELECTOR; // the background color of the section index while it is being touched
 
 // 分割线 - 实际上是高度1颜色浅灰的UIView
+
 @property (nonatomic, retain) UIColor *separatorColor UI_APPEARANCE_SELECTOR; // default is the standard separator gray
 
 // 
+
 @property (nonatomic, copy) UIVisualEffect *separatorEffect NS_AVAILABLE_IOS(8_0) UI_APPEARANCE_SELECTOR; // effect to apply to table separators
 
 ##UITableViewCell
